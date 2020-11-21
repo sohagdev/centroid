@@ -1,0 +1,250 @@
+$color: #000000;
+$white-color: #fff;
+$primary-color: #2b526c;
+$secondary-color: #6f8c9f;
+$light-color: #d1dce3;
+$off-white-color: #f1f1f1;
+$dark-color: #444444;
+// // Utilities
+// .card {
+//   background-color: $white-color;
+//   color: #333;
+//   border-radius: 10px;
+//   box-shadow: 0 3px 10px rgba($color: #000000, $alpha: 0.2);
+//   margin: 10px;
+//   padding: 20px;
+// }
+// .btn {
+//   display: inline-block;
+//   padding: 10px 30px;
+//   cursor: pointer;
+//   background-color: $primary-color;
+//   color: $white-color;
+//   border: none;
+//   border-radius: 5px;
+// }
+// .btn-outline {
+//   background-color: transparent;
+//   border: 1px solid $white-color;
+// }
+// .btn:hover {
+//   transform: scale(0.98);
+// }
+// // backgrounds & colored buttons
+// .bg-primary,
+// .btn-primary {
+//   background-color: $primary-color;
+//   color: #fff;
+// }
+// .bg-secondary,
+// .btn-secondary {
+//   background-color: $secondary-color;
+//   color: #fff;
+// }
+// .bg-dark,
+// .btn-dark {
+//   background-color: $dark-color;
+//   color: #fff;
+// }
+// .bg-light,
+// .btn-light {
+//   background-color: $light-color;
+//   color: #333;
+// }
+// .bg-primary a,
+// .btn-primary a,
+// .bg-secondary a,
+// .btn-secondary a,
+// .bg-dark a,
+// .btn-dark a {
+//   color: #fff;
+// }
+// // text-sizes
+// .lead {
+//   font-size: 20px;
+// }
+// .sm {
+//   font-size: 1rem;
+// }
+// .md {
+//   font-size: 2rem;
+// }
+// .lg {
+//   font-size: 3rem;
+// }
+// .xl {
+//   font-size: 4rem;
+// }
+// .flex {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+// }
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   gap: 20px;
+//   justify-content: center;
+//   align-items: center;
+//   height: 100%;
+// }
+// .grid-3 {
+//   grid-template-columns: repeat(3, 1fr);
+// }
+
+// .text-center {
+//   text-align: center;
+// }
+// // // margins
+// // .my-1 {
+// //   margin: 1rem 0;
+// // }
+// // .my-2 {
+// //   margin: 1.5rem 0;
+// // }
+// // .my-3 {
+// //   margin: 2rem 0;
+// // }
+// // .my-4 {
+// //   margin: 3rem 0;
+// // }
+// // .my-5 {
+// //   margin: 4rem 0;
+// // }
+// // .mx-1 {
+// //   margin: 0 1rem;
+// // }
+// // .mx-2 {
+// //   margin: 0 1.5rem;
+// // }
+// // .mx-3 {
+// //   margin: 0 2rem;
+// // }
+// // .mx-4 {
+// //   margin: 0 3rem;
+// // }
+// // .mx-5 {
+// //   margin: 0 4rem;
+// // }
+// // .m-1 {
+// //   margin: 1rem;
+// // }
+// // .m-2 {
+// //   margin: 1.5rem;
+// // }
+// // .m-3 {
+// //   margin: 2rem;
+// // }
+// // .m-4 {
+// //   margin: 3rem;
+// // }
+// // .m-5 {
+// //   margin: 4rem;
+// // }
+// // .mt-1 {
+// //   margin: 1rem;
+// // }
+// // .mt-2 {
+// //   margin: 1.5rem;
+// // }
+// // .mt-3 {
+// //   margin: 2rem;
+// // }
+// // .mt-4 {
+// //   margin: 3rem;
+// // }
+// // .mt-5 {
+// //   margin: 4rem;
+// // }
+// // .mb-1 {
+// //   margin: 1rem;
+// // }
+// // .mb-2 {
+// //   margin: 1.5rem;
+// // }
+// // .mb-3 {
+// //   margin: 2rem;
+// // }
+// // .mb-4 {
+// //   margin: 3rem;
+// // }
+// // .mb-5 {
+// //   margin: 4rem;
+// // }
+// // .mr-1 {
+// //   margin: 1rem;
+// // }
+// // .mr-2 {
+// //   margin: 1.5rem;
+// // }
+// // .mr-3 {
+// //   margin: 2rem;
+// // }
+// // .mr-4 {
+// //   margin: 3rem;
+// // }
+// // .mr-5 {
+// //   margin: 4rem;
+// // }
+// // .ml-1 {
+// //   margin: 1rem;
+// // }
+// // .ml-2 {
+// //   margin: 1.5rem;
+// // }
+// // .ml-3 {
+// //   margin: 2rem;
+// // }
+// // .ml-4 {
+// //   margin: 3rem;
+// // }
+// // .ml-5 {
+// //   margin: 4rem;
+// // }
+// // // padding
+// // .py-1 {
+// //   padding: 1rem 0;
+// // }
+// // .py-2 {
+// //   padding: 1.5rem 0;
+// // }
+// // .py-3 {
+// //   padding: 2rem 0;
+// // }
+// // .py-4 {
+// //   padding: 3rem 0;
+// // }
+// // .py-5 {
+// //   padding: 6rem 0;
+// // }
+// // .px-1 {
+// //   padding: 0 1rem;
+// // }
+// // .px-2 {
+// //   padding: 0 1.5rem;
+// // }
+// // .px-3 {
+// //   padding: 0 2rem;
+// // }
+// // .px-4 {
+// //   padding: 0 3rem;
+// // }
+// // .px-5 {
+// //   padding: 0 4rem;
+// // }
+// // .p-1 {
+// //   padding: 1rem;
+// // }
+// // .p-2 {
+// //   padding: 1.5rem;
+// // }
+// // .p-3 {
+// //   padding: 2rem;
+// // }
+// // .p-4 {
+// //   padding: 3rem;
+// // }
+// // .p-5 {
+// //   padding: 4rem;
+// // }
