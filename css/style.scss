@@ -1,5 +1,11 @@
-@import 'utilities-class';
-@import 'media-query';
+$color: #000000;
+$white-color: #fff;
+$primary-color: #2b526c;
+$secondary-color: #6f8c9f;
+$light-color: #d1dce3;
+$off-white-color: #f1f1f1;
+$dark-color: #444444;
+$tab-size: '(max-width: 640px)';
 @import 'navbar';
 // web fonts Montserrat
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
@@ -40,20 +46,13 @@ img {
   overflow: auto;
   padding: 0 10px;
 }
+// navbar-ends
 .showcase-section {
   background-image: url(../images/banner-image.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 13rem;
-  @media #{$small-tab-size} {
-    height: 140vh;
-    padding-top: 10rem;
-  }
-  @media #{$mobile-size} {
-    height: 115vh;
-  }
 
   h1 {
     font-family: 'Roboto', sans-serif;
@@ -69,20 +68,6 @@ img {
     color: $primary-color;
     text-decoration: none;
   }
-  .content {
-    p {
-      @media #{$small-tab-size} {
-        text-align: center;
-        padding: 10px 20px;
-      }
-    }
-    a {
-      @media #{$small-tab-size} {
-        font-size: 14px;
-        margin-bottom: 1.5rem;
-      }
-    }
-  }
 }
 // .quote-section-ends
 .featured-content {
@@ -90,12 +75,9 @@ img {
   h2 {
     color: $primary-color;
   }
-  p {
-    font-size: 14px;
-  }
+
   a {
     color: $primary-color;
-    text-decoration: underline 2px;
   }
 }
 // featured-section-end
