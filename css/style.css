@@ -2,20 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@300;400&display=swap");
 .navbar {
   color: #2b526c;
-  padding: 30px 0;
-  background-color: #fff;
-  width: 100%;
-  position: fixed;
-  z-index: 1;
 }
 
 .navbar .toggle-button {
   position: absolute;
   z-index: 3;
   right: 35px;
-  top: 35px;
+  top: 45px;
   cursor: pointer;
-  display: none;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
@@ -28,12 +22,6 @@
   border-radius: 10px;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-
-@media (max-width: 640px) {
-  .navbar .toggle-button {
-    display: block;
-  }
 }
 
 .navbar .toggle-button.active {
@@ -55,66 +43,12 @@
           transform: rotate(-50deg) translate(7px, -8px);
 }
 
-.navbar nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 10px 0;
-}
-
-@media (max-width: 640px) {
-  .navbar nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    top: 90px;
-    right: -100%;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    background-color: #fff;
-  }
-  .navbar nav.active {
-    right: 0;
-  }
-}
-
-.navbar nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 640px) {
-  .navbar nav ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media (max-width: 640px) {
-  .navbar nav ul li {
-    text-align: center;
-    margin: 2rem 0;
-  }
+.navbar nav.active {
+  display: block;
 }
 
 .navbar nav ul li a {
   color: #2b526c;
-  padding: 10px 0;
-  font-weight: 900;
-  text-decoration: none;
-}
-
-@media (max-width: 640px) {
-  .navbar nav ul li a {
-    width: 100%;
-  }
 }
 
 .navbar nav ul li .try-btn {
@@ -185,23 +119,12 @@ img {
   font-family: 'Roboto', sans-serif;
 }
 
-.showcase-section .graph-content {
-  -webkit-box-shadow: 5px 5px 4px 1px #ccc;
-          box-shadow: 5px 5px 4px 1px #ccc;
-}
-
 .quote-section {
   background-color: #2b526c;
 }
 
 .quote-section a {
   color: #2b526c;
-  text-decoration: none;
-}
-
-.featured-content {
-  -webkit-box-shadow: 4px 0px 15px 0px #ccc;
-          box-shadow: 4px 0px 15px 0px #ccc;
 }
 
 .featured-content h2 {
@@ -225,11 +148,6 @@ img {
 .why-choose-section {
   background-color: #2b526c;
   background-size: cover;
-}
-
-.why-choose-section .card-container {
-  -webkit-box-shadow: 10px 10px 20px 2px #333;
-          box-shadow: 10px 10px 20px 2px #333;
 }
 
 .why-choose-section .compare-btn a {
@@ -276,10 +194,6 @@ img {
 
 .testimonials .testimonial-item {
   background-color: #f1f1f1;
-}
-
-.clients-section .clients-icon {
-  border: 0.5px solid #444;
 }
 
 .footer-section {
